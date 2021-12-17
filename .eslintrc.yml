@@ -9,7 +9,7 @@ globals:
   BigInt: true
   window: true
 parserOptions:
-  ecmaVersion: 2020
+  ecmaVersion: 2021
 rules:
   array-bracket-spacing:
     - 2
@@ -54,6 +54,9 @@ rules:
   object-shorthand:
     - 2
     - consistent-as-needed
+  operator-assignment:
+    - 2
+    - always
   prefer-const: 2
   quotes:
     - 2
