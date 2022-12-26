@@ -1281,7 +1281,7 @@ declare namespace Eris {
     disabled?: boolean;
     max_values?: number;
     min_values?: number;
-    options: SelectMenuOptions[];
+    options?: SelectMenuOptions[];
     placeholder?: string;
     type: Constants["ComponentTypes"]["SELECT_MENU"] | Constants["ComponentTypes"]["USER_SELECT"] | Constants["ComponentTypes"]["CHANNEL_SELECT"] | Constants["ComponentTypes"]["ROLE_SELECT"] | Constants["ComponentTypes"]["MENTIONABLE_SELECT"];
   }
