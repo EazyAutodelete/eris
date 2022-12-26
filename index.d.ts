@@ -1283,7 +1283,7 @@ declare namespace Eris {
     min_values?: number;
     options: SelectMenuOptions[];
     placeholder?: string;
-    type: Constants["ComponentTypes"]["SELECT_MENU"];
+    type: Constants["ComponentTypes"]["SELECT_MENU"] | Constants["ComponentTypes"]["USER_SELECT"] | Constants["ComponentTypes"]["CHANNEL_SELECT"] | Constants["ComponentTypes"]["ROLE_SELECT"] | Constants["ComponentTypes"]["MENTIONABLE_SELECT"];
   }
   interface SelectMenuOptions {
     default?: boolean;
