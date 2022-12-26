@@ -1110,7 +1110,7 @@ declare namespace Eris {
   }
 
   interface ComponentInteractionSelectMenuData {
-    component_type: Constants["ComponentTypes"]["SELECT_MENU"];
+    component_type: Constants["ComponentTypes"]["SELECT_MENU"] | Constants["ComponentTypes"]["USER_SELECT"] | Constants["ComponentTypes"]["CHANNEL_SELECT"] | Constants["ComponentTypes"]["ROLE_SELECT"] | Constants["ComponentTypes"]["MENTIONABLE_SELECT"];
     custom_id: string;
     values: string[];
   }
