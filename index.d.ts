@@ -3310,6 +3310,7 @@ declare namespace Eris {
     member?: Member;
     type: Constants["InteractionTypes"]["MODAL_SUBMIT"];
     user?: User;
+    message?: Message<T>;
     acknowledge(): Promise<void>;
     createFollowup(content: string | InteractionContent, file?: FileContent | FileContent[]): Promise<Message>;
     createMessage(content: string | InteractionContent, file?: FileContent | FileContent[]): Promise<void>;
